@@ -6,4 +6,11 @@ Name = "sufia-vpc"
 }
 }
 
+resource "aws_internet_gateway" "sufia-gateway" {
+vpc_id = "${aws_vpc.sufia-vpc.id}"
+tags = {
+Name="sufia-gateway"
+}
+}
+
 
