@@ -1,0 +1,3 @@
+values of mapping are: rs10 for 1xCPU-1GB and rs20 for 1xCPU-16GB
+values of set_password var is true
+Users are: root pavan user15
